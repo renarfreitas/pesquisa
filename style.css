@@ -7,8 +7,7 @@
 
 body {
   background-image: url("img/2-1024x576.png");
-  background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
 }
 
 .container {
@@ -28,8 +27,8 @@ body {
   margin: 2rem 0;
   text-align: center;
   padding-bottom: 2rem;
-  color: #f6f6f9;
-  border-bottom: 1px solid #f6f6f9;
+  color: #0088d2;
+  border-bottom: 1px solid #0088d2;
   font-size: 2rem;
 }
 
@@ -45,7 +44,7 @@ body {
 
 .form label {
   margin-bottom: 2px;
-  color: #f6f6f9;
+  color: #0088d2;
   font-size: 18px;
 }
 
@@ -60,7 +59,7 @@ body {
 
 .form a {
   width: 100%;
-  background: #f6f6f9;
+  background: #0088d2;
   height: 50px;
   padding: 15px;
   margin-top: 20px;
@@ -68,8 +67,16 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #0088d2;
+  color: #f6f6f9;
   font-size: 1.2rem;
   border-radius: 5px;
 }
 
+.efeito-vidro {
+  background: rgba(255, 255, 255, 0.30);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
